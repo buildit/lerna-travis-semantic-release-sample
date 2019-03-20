@@ -1,0 +1,23 @@
+{
+  "name": "lerna-travis-semantic-release",
+  "version": "1.0.0",
+  "description": "An experiment to see how Lerna 3+ works with Semantic Release and Travis CI",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lerna": "lerna"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashblue/lerna-travis-semantic-release.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ashblue/lerna-travis-semantic-release/issues"
+  },
+  "homepage": "https://github.com/ashblue/lerna-travis-semantic-release#readme",
+  "devDependencies": {
+    "lerna": "^3.13.1"
+  }
+}

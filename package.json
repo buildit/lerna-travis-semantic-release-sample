@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lerna": "lerna"
+    "lerna": "lerna",
+    "commit": "git-cz"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,13 @@
   },
   "homepage": "https://github.com/ashblue/lerna-travis-semantic-release#readme",
   "devDependencies": {
+    "commitizen": "^3.0.7",
+    "cz-lerna-changelog": "^2.0.2",
     "lerna": "^3.13.1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-lerna-changelog"
+    }
   }
 }

@@ -6,8 +6,10 @@ const bModule = require('@ablue-test/b');
 module.exports = calc;
 
 function calc() {
-    console.log(aModule.add(1, 2));
-    console.log(bModule.subtract(1, 2));
+    const a = aModule.add(1, 2);
+    const b = bModule.subtract(1, 2);
+
+    return a + b;
 }
 
 calc();

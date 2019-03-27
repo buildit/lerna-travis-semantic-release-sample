@@ -4,7 +4,7 @@
   "description": "An experiment to see how Lerna 3+ works with Semantic Release and Travis CI",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "lerna run test",
     "lerna": "lerna",
     "commit": "git-cz"
   },

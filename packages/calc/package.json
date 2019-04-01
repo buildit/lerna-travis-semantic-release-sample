@@ -18,7 +18,8 @@
     "url": "git+https://github.com/ashblue/lerna-travis-semantic-release.git"
   },
   "scripts": {
-    "test": "mocha \"__tests__/calc.test.js\""
+    "test": "mocha \"__tests__/calc.test.js\"",
+    "deploy": "npm run test && semantic-release --dry-run"
   },
   "bugs": {
     "url": "https://github.com/ashblue/lerna-travis-semantic-release/issues"
@@ -28,6 +29,8 @@
     "@ablue-test/b": "1.0.0"
   },
   "devDependencies": {
-    "mocha": "^6.0.2"
+    "@ablue-test/semantic-release": "^1.0.0",
+    "mocha": "^6.0.2",
+    "semantic-release": "^15.13.3"
   }
 }

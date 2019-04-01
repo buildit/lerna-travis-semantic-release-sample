@@ -18,15 +18,18 @@
     "url": "git+https://github.com/ashblue/lerna-travis-semantic-release.git"
   },
   "scripts": {
-    "test": ""
+    "test": "",
+    "deploy": ""
   },
   "bugs": {
     "url": "https://github.com/ashblue/lerna-travis-semantic-release/issues"
   },
-  "devDependencies": {
+  "dependencies": {
     "@semantic-release/changelog": "^3.0.2",
     "@semantic-release/git": "^7.0.8",
-    "@ablue-test/semantic-release-lerna-analyzer":  "^1.0.0",
+    "@ablue-test/semantic-release-lerna-analyzer": "^1.0.0"
+  },
+  "devDependencies": {
     "semantic-release": "^15.13.3"
   }
 }

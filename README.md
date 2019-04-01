@@ -7,8 +7,17 @@ This repo uses Commitizen and Commit Lint to enforce proper commit syntax. You'l
 checkin your commits.
 
 ```bash
-npm run commitlint
-``` 
+npm run commit
+```
+
+## Running a deploy
+
+Deploys can only safely be run in a CI environment since they make use of Semantic Release to automatically update
+repos. When a deploy is run it will trigger the `deploy` script on every package.json file.
+
+```bash
+npm run deploy
+```
 
 ## TODOs
 

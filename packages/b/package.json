@@ -18,7 +18,8 @@
     "url": "git+https://github.com/ashblue/lerna-travis-semantic-release.git"
   },
   "scripts": {
-    "test": ""
+    "test": "",
+    "deploy": ""
   },
   "bugs": {
     "url": "https://github.com/ashblue/lerna-travis-semantic-release/issues"

@@ -6,7 +6,8 @@
   "scripts": {
     "test": "lerna run test",
     "lerna": "lerna",
-    "commit": "git-cz"
+    "commit": "git-cz",
+    "deploy": "lerna run deploy"
   },
   "husky": {
     "hooks": {

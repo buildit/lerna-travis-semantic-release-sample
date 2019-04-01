@@ -1,0 +1,3 @@
+{
+  "extends": "@ablue-test/semantic-release"
+}

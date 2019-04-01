@@ -1,6 +1,6 @@
 'use strict';
 
-const semanticReleaseLernaAnalyzer = require('../lib/semantic-release-lerna-analyzer');
+const semanticReleaseLernaAnalyzer = require('../lib/semantic-release-lerna-analyzer').analyzeCommits;
 const sinon = require('sinon');
 const commitAnalyzer = require('@semantic-release/commit-analyzer');
 

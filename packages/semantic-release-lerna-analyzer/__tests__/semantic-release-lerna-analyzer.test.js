@@ -13,7 +13,7 @@ describe('semantic-release-lerna-analyzer', () => {
     beforeEach(() => {
         _analyzeCommitsStub = sinon.stub(commitAnalyzer, 'analyzeCommits');
         _config = {
-            pkg: { name: PACKAGE_NAME },
+            env: { npm_package_name: PACKAGE_NAME },
             commits: [],
         };
     });

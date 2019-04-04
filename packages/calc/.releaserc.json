@@ -1,3 +1,4 @@
 {
-  "extends": "@ablue-test/semantic-release"
+  "extends": "@ablue-test/semantic-release",
+  "tagFormat": "calc-v${version}"
 }

@@ -19,7 +19,8 @@
   },
   "scripts": {
     "test": "mocha \"__tests__/calc.test.js\"",
-    "deploy": "npm run test && semantic-release"
+    "deploy": "npm run test && semantic-release",
+    "semantic-release": "semantic-release"
   },
   "bugs": {
     "url": "https://github.com/ashblue/lerna-travis-semantic-release/issues"

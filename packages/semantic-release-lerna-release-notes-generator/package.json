@@ -24,7 +24,7 @@
     "url": "https://github.com/buildit/lerna-travis-semantic-release-sample/issues"
   },
   "devDependencies": {
-    "semantic-release": "^15.13.3"
+    "semantic-release": "^17.2.3"
   },
   "dependencies": {
     "@semantic-release/release-notes-generator": "^7.1.4"
